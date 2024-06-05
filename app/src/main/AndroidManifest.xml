@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:overrideLibrary="com.google.android.gms.ads.impl">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/c11"
+        android:label="Cihaz Özellikleri"
+        android:roundIcon="@drawable/c11"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:overrideLibrary="com.google.android.gms.ads.impl">
+
+        <activity android:name=".genel"/>
+        <activity android:name=".cpu" />
+        <activity android:name=".network" />
+        <activity android:name=".ekran" />
+        <activity android:name=".batarya" />
+        <activity android:name=".ram" />
+        <activity android:name=".yazilim" />
+        <activity android:name=".sensor" />
+        <activity android:name=".giris" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

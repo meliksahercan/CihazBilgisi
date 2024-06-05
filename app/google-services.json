@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278191687925",
+    "project_id": "cihaz-bilgisi",
+    "storage_bucket": "cihaz-bilgisi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278191687925:android:f4e7c4e6c303e3acbaddbc",
+        "android_client_info": {
+          "package_name": "com.ercan.cihazbilgisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278191687925-2tbtke3cs9hrgdl1dp3cb6ef5udkovm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ercan.cihazbilgisi",
+            "certificate_hash": "1a13ddb4bc6c03d2cf42b53560d86bfef1c8776c"
+          }
+        },
+        {
+          "client_id": "278191687925-9gbvmg3mo5a6q8jihet57cpe8lujqc10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAAfAgvYJuk4E1N8lj_VwpLZsj5S1WC-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278191687925-9gbvmg3mo5a6q8jihet57cpe8lujqc10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
